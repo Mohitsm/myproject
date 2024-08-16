@@ -55,6 +55,14 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
+					<archive>
+						<manifest>
+							<addClasspath>true</addClasspath>
+							<mainClass>com.employeeTry.EmployeeTryApplication</mainClass> <!--
+							Ensure this is correct -->
+						</manifest>
+					</archive>
+
 					<excludes>
 						<exclude>
 							<groupId>org.projectlombok</groupId>
