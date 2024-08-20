@@ -16,7 +16,7 @@ public class DocumentService {
     @Autowired
     private EmployeeDocumentRepository documentRepository;
 
-    private final String UPLOAD_DIR = "C:/uploads/";
+    private final String UPLOAD_DIR = "C:\\Users\\Mohit Kumar\\New folder (2)";
 
     public void saveDocumentDetails(MultipartFile matric, MultipartFile inter, MultipartFile graduation,
             MultipartFile pg, MultipartFile aadhar, MultipartFile pan, MultipartFile dl,
